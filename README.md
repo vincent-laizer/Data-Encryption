@@ -42,3 +42,7 @@ Writes the vector of blocks returned from RLAc function and writes them to a fil
 RLAu -> Run Length Algorithm uncompress.
 Read the individual data of **Block** type from file and extracts the letter and frequency then uses this information to rewrite the original data in the decrypted file.
 Takes the filename of the encrypted file and the new decrypted file will have a '3' appended to its end.
+
+## Issues
+- Some of the functions present in the code are depreciated and just left for a short while.
+- The program requires commenting out of the unused function at a time. When encrypting comment out the decryption function and vice versa.
